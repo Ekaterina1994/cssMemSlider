@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="normalize.css" />
-	<link rel="stylesheet" href="style.css" />
-	<link rel="icon" href="./assets/favicon.ico">
-	<title>CssMemSlider</title>
-</head>
-<body>
-	
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/favicon.ico" />
+    <title>CssMemSlider</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="slides">
+        <div class="slide"><img src="./assets/img/mem1.jpg" alt="img1" /></div>
+        <div class="slide"><img src="./assets/img/mem2.jpg" alt="img2" /></div>
+        <div class="slide"><img src="./assets/img/mem3.jpg" alt="img3" /></div>
+        <div class="slide"><img src="./assets/img/mem4.jpg" alt="img4" /></div>
+        <div class="slide"><img src="./assets/img/mem5.jpg" alt="img5" /></div>
+
+        <input type="radio" id="slide1" name="button" checked />
+        <input type="radio" id="slide2" name="button" />
+        <input type="radio" id="slide3" name="button" />
+        <input type="radio" id="slide4" name="button" />
+        <input type="radio" id="slide5" name="button" />
+      </div>
+
+      <div class="texts">
+        <div class="text">Movies VS Life</div>
+        <div class="text">A very quickly work!</div>
+        <div class="text">It's not a secret yet</div>
+        <div class="text">It will never finish!!</div>
+        <div class="text">How many people can solve it?</div>
+      </div>
+
+      <nav class="radio-buttons">
+        <label for="slide1" class="label"></label>
+        <label for="slide2" class="label"></label>
+        <label for="slide3" class="label"></label>
+        <label for="slide4" class="label"></label>
+        <label for="slide5" class="label"></label>
+      </nav>
+    </div>
+  </body>
 </html>
