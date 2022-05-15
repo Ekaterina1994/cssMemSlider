@@ -1,5 +1,63 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+body {
+  background-color: #ffcc99;
+  width: 100%;
 }
+
+.wrapper {
+  width: 50%;
+  height: 90%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #660000;
+  border-radius: 20px;
+}
+
+.slides {
+  width: 500%;
+  height: 100%;
+	margin-top: 20px;
+  display: flex;
+  transition: all 0.4s ease;
+}
+
+.slide {
+  display: flex;
+  width: 20%;
+  height: 70%;
+  transition: all 0.5s ease;
+}
+
+input {
+  display: none;
+}
+
+.image {
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.radio-buttons {
+  position: absolute;
+  display: flex;
+  bottom: 20px;
+  left: 50px;
+}
+
+.label {
+	height: 20px;
+	width: 20px;
+	background-color: white;
+}
+
+.label:hover {
+	cursor: pointer;
+}
+
+/* animation */
+
+
+
