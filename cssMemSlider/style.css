@@ -9,10 +9,7 @@ body {
   width: 50%;
   height: 90%;
   overflow: hidden;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 20px auto;
   background-color: #660000;
   border-radius: 20px;
 }
@@ -171,6 +168,7 @@ input {
 	.wrapper {
 		width: 100%;
 		height: 100%;
+		margin: 0;
 	}
 	.texts-and-labels {
 		flex-direction: column-reverse;
