@@ -64,11 +64,13 @@ input {
 }
 
 .text {
+	display: flex;
+	align-items: center;
   color: white;
   min-width: 100%;
   width: 100%;
-  height: 5em;
-  line-height: 5em;
+  height: 6em;
+	line-height: 1.5em;
   transition: all 0.5s ease;
 }
 
@@ -95,7 +97,7 @@ input {
   display: block;
   height: 15px;
   width: 15px;
-  margin: 10px;
+  margin: 7px;
   border: 2px solid white;
   border-radius: 100%;
 }
@@ -162,3 +164,22 @@ input {
   background-color: white;
   border-color: #660000;
 }
+
+/* mobile */
+
+@media (max-width: 768px) {
+	.wrapper {
+		width: 100%;
+		height: 100%;
+	}
+	.texts-and-labels {
+		flex-direction: column-reverse;
+	}
+	.texts {
+		width: 100%;
+	}
+	.text {
+		height: 2em;
+	}
+}
+
